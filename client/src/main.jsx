@@ -8,11 +8,11 @@ import {
 } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
-import Home from "./pages/Home.jsx";
-import Signin from "./pages/Signin.jsx";
-import SignUp from "./pages/SignUp.jsx";
-import Profile from "./pages/Profile.jsx";
-import About from "./pages/About.jsx";
+import Home from "./pages/Home";
+import SignUp from "./pages/SignUp";
+import Signin from "./pages/Signin";
+import Profile from "./pages/Profile";
+import About from "./pages/About";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
